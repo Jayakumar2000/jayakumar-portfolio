@@ -19,7 +19,7 @@ function ScrollToTop() {
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/jayakumar-portfolio">
       <ScrollToTop />
       <div className="min-h-screen bg-surface flex flex-col selection:bg-brand selection:text-white">
         <Navbar />
