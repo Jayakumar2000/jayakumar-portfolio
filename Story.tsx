@@ -1,8 +1,8 @@
 import React from "react";
-import { FRAMEWORK } from "../constants";
+import { FRAMEWORK } from "./constants";
 import * as Icons from "lucide-react";
 import { motion } from "motion/react";
-import { CTA } from "../components/CTA";
+import { CTA } from "./CTA";
 
 export function Story() {
   return (
