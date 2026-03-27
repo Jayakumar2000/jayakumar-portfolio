@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Github, Linkedin, Phone, Mail } from "lucide-react";
 
 export function Footer() {
   return (
@@ -12,11 +12,9 @@ export function Footer() {
             JAYAKUMAR
           </Link>
           <p className="text-white/60 text-lg max-w-md leading-relaxed">
-            Turning complex sports data into products people love. 
-            Strategically architecting the future of sports technology.
+            Turning complex sports data into products people love. Strategically architecting the future of sports technology.
           </p>
         </div>
-
         <div>
           <h4 className="font-display font-bold text-lg mb-6">Quick Links</h4>
           <ul className="space-y-4 text-white/60">
@@ -26,20 +24,19 @@ export function Footer() {
             <li><Link to="/story" className="hover:text-brand transition-colors">Story</Link></li>
           </ul>
         </div>
-
         <div>
           <h4 className="font-display font-bold text-lg mb-6">Connect</h4>
           <div className="flex gap-4 mb-8">
-            <a href="#" className="w-10 h-10 rounded-full bg-surface-border flex items-center justify-center hover:bg-brand transition-all">
+            <a href="https://github.com/Jayakumar2000" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-surface-border flex items-center justify-center hover:bg-brand transition-all" title="GitHub">
               <Github size={20} />
             </a>
-            <a href="#" className="w-10 h-10 rounded-full bg-surface-border flex items-center justify-center hover:bg-brand transition-all">
+            <a href="https://www.linkedin.com/in/jayakumarproductlead/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-surface-border flex items-center justify-center hover:bg-brand transition-all" title="LinkedIn">
               <Linkedin size={20} />
             </a>
-            <a href="#" className="w-10 h-10 rounded-full bg-surface-border flex items-center justify-center hover:bg-brand transition-all">
-              <Twitter size={20} />
+            <a href="tel:+919087059907" className="w-10 h-10 rounded-full bg-surface-border flex items-center justify-center hover:bg-brand transition-all" title="Call +91 90870 59907">
+              <Phone size={20} />
             </a>
-            <a href="#" className="w-10 h-10 rounded-full bg-surface-border flex items-center justify-center hover:bg-brand transition-all">
+            <a href="mailto:jayakumarm.0801@gmail.com" className="w-10 h-10 rounded-full bg-surface-border flex items-center justify-center hover:bg-brand transition-all" title="Email">
               <Mail size={20} />
             </a>
           </div>
