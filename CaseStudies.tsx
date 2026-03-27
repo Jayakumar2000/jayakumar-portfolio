@@ -1,9 +1,9 @@
 import React from "react";
-import { PROJECTS } from "../constants";
+import { PROJECTS } from "./constants";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { motion } from "motion/react";
-import { CTA } from "../components/CTA";
-import { cn } from "../lib/utils";
+import { CTA } from "./CTA";
+import { cn } from "./utils";
 
 export function CaseStudies() {
   return (
