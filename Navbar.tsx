@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import { cn } from "../lib/utils";
+import { cn } from "./utils";
 
 const NAV_LINKS = [
   { name: "Home", path: "/" },
