@@ -1,8 +1,8 @@
 import React from "react";
-import { SKILLS, CERTIFICATIONS } from "../constants";
+import { SKILLS, CERTIFICATIONS } from "./constants";
 import * as Icons from "lucide-react";
 import { motion } from "motion/react";
-import { CTA } from "../components/CTA";
+import { CTA } from "./CTA";
 
 export function Skills() {
   return (
