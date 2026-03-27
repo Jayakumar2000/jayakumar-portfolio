@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
-import { Navbar } from "./components/Navbar";
-import { Footer } from "./components/Footer";
-import { Home } from "./pages/Home";
-import { CaseStudies } from "./pages/CaseStudies";
-import { Skills } from "./pages/Skills";
-import { Story } from "./pages/Story";
+import { Navbar } from "./Navbar";
+import { Footer } from "./Footer";
+import { Home } from "./Home";
+import { CaseStudies } from "./CaseStudies";
+import { Skills } from "./Skills";
+import { Story } from "./Story";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
