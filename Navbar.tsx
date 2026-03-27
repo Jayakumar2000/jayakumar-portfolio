@@ -7,7 +7,7 @@ const NAV_LINKS = [
   { name: "Home", path: "/" },
   { name: "Case Studies", path: "/case-studies" },
   { name: "Skills", path: "/skills" },
-  { name: "Story", path: "/story" }
+  { name: "Story", path: "/story" },
 ];
 
 export function Navbar() {
@@ -48,9 +48,12 @@ export function Navbar() {
               {link.name}
             </Link>
           ))}
-          <button className="bg-white text-black px-5 py-2 rounded-full text-sm font-bold hover:bg-brand hover:text-white transition-all">
+          <a
+            href="mailto:jayakumarm.0801@gmail.com"
+            className="bg-white text-black px-5 py-2 rounded-full text-sm font-bold hover:bg-brand hover:text-white transition-all"
+          >
             Contact
-          </button>
+          </a>
         </div>
 
         {/* Mobile Toggle */}
@@ -79,9 +82,13 @@ export function Navbar() {
             {link.name}
           </Link>
         ))}
-        <button className="bg-brand text-white px-8 py-3 rounded-full text-lg font-bold">
+        <a
+          href="mailto:jayakumarm.0801@gmail.com"
+          className="bg-brand text-white px-8 py-3 rounded-full text-lg font-bold"
+          onClick={() => setIsOpen(false)}
+        >
           Contact
-        </button>
+        </a>
       </div>
     </nav>
   );
